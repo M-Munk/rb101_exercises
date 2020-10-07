@@ -8,7 +8,7 @@ WORDS = %w[zero one two three four five six seven eight nine ten eleven twelve t
   fourteen fifteen sixteen seventeen eighteen nineteen]
 
 def alphabetic_number_sort(arr)
-  arr.sort_by{ |num| WORDS[num] }
+  arr.sort_by { |num| WORDS[num] }
 end
 
 # examples:
