@@ -23,7 +23,7 @@
 # return index of answer
 
 # create fib_sequence
-# start with [0,1]
+# start with [1,1]
 # add number = the sum of previous 2 numbers
 # continue adding numbers 
 # until number added >= min_value
