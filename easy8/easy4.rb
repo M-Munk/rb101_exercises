@@ -21,7 +21,7 @@ end
 def substrings(string)
   result = []
   string.each_char.with_index do |_, index|
-    result.concat(leading_substrings(string[index..string.size]))
+    result.concat(leading_substrings(string[index..-1]))
   end
   result
 end
